@@ -3,6 +3,8 @@ package com.example.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +28,7 @@ import com.example.dto.UpdateCartQtyRequest;
 
 @RestController
 @RequestMapping("/api/cart")
+@CrossOrigin(origins = "http://localhost:5173")
 public class CartController {
 
     @Autowired
@@ -39,6 +42,21 @@ public class CartController {
     
     @PostMapping("/add")
     public Cart addToCart(@RequestBody AddToCartRequest request) {
+    	
+    	
+    	if (request.getUserId() == null) {
+            throw new RuntimeException("userId is missing in request");
+        }
+        if (request.getProductId() == null) {
+            throw new RuntimeException("productId is missing in request");
+        }
+        if (request.getQty() == null) {
+            request.setQty(1);
+        }
+
+        System.out.println("USER ID = " + request.getUserId());
+        System.out.println("PRODUCT ID = " + request.getProductId());
+        System.out.println("QTY = " + request.getQty());
 
         User user = userRepository.findById(request.getUserId())
             .orElseThrow(() -> new RuntimeException("User not found"));
@@ -50,8 +68,7 @@ public class CartController {
     }
 
     @GetMapping("/{userId}")
-    public List<Cart> getCart(
-            @PathVariable("userId") Integer userId) {
+    public List<Cart> getCart(@PathVariable("userId") Integer userId) {
 
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("User not found"));
@@ -67,10 +84,18 @@ public class CartController {
         return cartService.updateQty(cartId, request.getQty());
     }
     
-    @DeleteMapping("/remove")
-    public void removeItem(@RequestBody DeleteCartItemRequest request) {
-
-        cartService.removeItem(request.getCartId());
+    
+    
+    @DeleteMapping("/remove/{cartId}")
+    public ResponseEntity<String> removeFromCart(@PathVariable int cartId) {
+        cartService.removeItem(cartId);
+        return ResponseEntity.ok("Removed");
     }
+    
+//    @DeleteMapping("/remove")
+//    public void removeItem(@RequestBody DeleteCartItemRequest request) {
+//
+//        cartService.removeItem(request.getCartId());
+//    }
 
 }

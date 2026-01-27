@@ -2,6 +2,7 @@ package com.example.models;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "my_shelf")
@@ -27,7 +28,7 @@ public class MyShelf {
     // -------- Product Expiry Date --------
 
     @Column(name = "product_expiry_date")
-    private LocalDate productExpiryDate;
+    private LocalDateTime productExpiryDate;
 
     // -------- Constructors --------
 
@@ -62,11 +63,11 @@ public class MyShelf {
         this.product = product;
     }
 
-    public LocalDate getProductExpiryDate() {
+    public LocalDateTime getProductExpiryDate() {
         return productExpiryDate;
     }
 
-    public void setProductExpiryDate(LocalDate productExpiryDate) {
+    public void setProductExpiryDate(LocalDateTime productExpiryDate) {
         this.productExpiryDate = productExpiryDate;
     }
 }
