@@ -40,11 +40,15 @@ public class CheckoutService {
 	private final ProductBeneficiaryRepository productBeneficiaryRepo;
 	private final BeneficiaryRepository beneficiaryRepository;
 	private final RoyaltyCalculationRespository royaltyCalculationRespository;
-
+	private final TransactionPdfService transactionPdfService;
+	private final EmailService emailService;
+	
 	public CheckoutService(UserRepository userRepo, CartRepository cartRepo, TransactionRepository transactionRepo,
 			TransactionItemRepository itemRepo, MyShelfRepository shelfRepo,
 			ProductBeneficiaryRepository productBeneficiaryRepo, BeneficiaryRepository beneficiaryRepository,
-			RoyaltyCalculationRespository royaltyCalculationRespository) {
+			RoyaltyCalculationRespository royaltyCalculationRespository,
+			TransactionPdfService transactionPdfService,
+			EmailService emailService) {
 		this.userRepo = userRepo;
 		this.cartRepo = cartRepo;
 		this.transactionRepo = transactionRepo;
@@ -53,6 +57,8 @@ public class CheckoutService {
 		this.productBeneficiaryRepo = productBeneficiaryRepo;
 		this.beneficiaryRepository = beneficiaryRepository;
 		this.royaltyCalculationRespository = royaltyCalculationRespository;
+		this.transactionPdfService = transactionPdfService;
+		this.emailService = emailService;
 	}
 
 	@Transactional
@@ -165,6 +171,20 @@ public class CheckoutService {
         transaction.setTotalAmount(total);
         transaction.setStatus(TransactionStatus.SUCCESS);
         transactionRepo.save(transaction);
+        
+//      pdf
+      List<TransactionItem> items =
+              itemRepo.findByTransaction(transaction);
+
+      byte[] pdfBytes = transactionPdfService.generateInvoice(transaction, items);
+      
+      
+//      for email
+      emailService.sendTransactionSuccessEmail(
+              transaction.getUser().getUserEmail(),
+              transaction,
+              pdfBytes
+      );
 
         // 7️⃣ Clear cart
         //cartRepo.deleteByUser_UserId(user.getUserId());
@@ -172,3 +192,4 @@ public class CheckoutService {
      
 	}
 }
+

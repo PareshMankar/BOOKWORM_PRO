@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface MyShelfRepository extends JpaRepository<MyShelf, Integer> {
 
-    List<MyShelf> findByUserUserId(Long userId);
+    List<MyShelf> findByUser_UserId(Integer userId);
     boolean existsByUser_UserIdAndProduct_ProductId(Integer userId, Integer productId);
 
     // ✅ delete all expired rent items

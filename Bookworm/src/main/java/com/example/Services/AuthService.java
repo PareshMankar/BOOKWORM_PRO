@@ -2,6 +2,7 @@ package com.example.Services;
 
 import com.example.models.User;
 import com.example.Repository.UserRepository;
+import com.example.dto.AuthResponse;
 import com.example.dto.LoginRequest;
 import com.example.dto.RegisterRequest;
 import com.example.security.JwtUtil;
@@ -38,8 +39,10 @@ public class AuthService {
 
         userRepo.save(user);
     }
-
-    public String login(LoginRequest request) {
+    
+    
+    // ✅ UPDATED: return token + userId
+    public AuthResponse login(LoginRequest request) {
 
         User user = userRepo.findByUserEmail(request.getEmail())
                 .orElseThrow(() -> new RuntimeException("User not found"));
@@ -48,6 +51,21 @@ public class AuthService {
             throw new RuntimeException("Invalid credentials");
         }
 
-        return jwtUtil.generateToken(user.getUserEmail(), user.isAdmin());
+        String token = jwtUtil.generateToken(user.getUserEmail(), user.isAdmin());
+
+        // ⚠️ If your User entity has getId() then replace getUserId() with getId()
+        return new AuthResponse(token, user.getUserId());
     }
+
+//    public String login(LoginRequest request) {
+//
+//        User user = userRepo.findByUserEmail(request.getEmail())
+//                .orElseThrow(() -> new RuntimeException("User not found"));
+//
+//        if (!encoder.matches(request.getPassword(), user.getUserPassword())) {
+//            throw new RuntimeException("Invalid credentials");
+//        }
+//
+//        return jwtUtil.generateToken(user.getUserEmail(), user.isAdmin());
+//    }
 }

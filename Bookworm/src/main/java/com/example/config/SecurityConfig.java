@@ -33,12 +33,12 @@ public class SecurityConfig {
 
                 .requestMatchers("/api/auth/**").permitAll()
                 .requestMatchers("/oauth2/**", "/login/**").permitAll()
-                .requestMatchers("/api/products/**").permitAll()
-                .requestMatchers("/api/cart/**").permitAll()
+                .requestMatchers("/api/cart/**").hasAnyRole("USER", "ADMIN")
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")
-                .requestMatchers("/api/checkout/**").permitAll()
-//                .requestMatchers("/api/products/**").hasAnyRole("USER", "ADMIN")
+                .requestMatchers("/api/checkout/**").hasAnyRole("USER", "ADMIN")
+                .requestMatchers("/api/products/**").permitAll()
                 .anyRequest().authenticated()
+             // .requestMatchers("/api/products/**").permitAll()
             )
             .oauth2Login(oauth ->
                 oauth.successHandler(oAuth2SuccessHandler)
