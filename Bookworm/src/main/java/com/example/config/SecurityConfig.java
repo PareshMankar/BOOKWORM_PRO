@@ -46,10 +46,16 @@ public class SecurityConfig {
                 .requestMatchers("/oauth2/**", "/login/**").permitAll()
                 .requestMatchers("/api/products/**").permitAll()
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 .requestMatchers("/api/cart/**").permitAll()
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")
                 .requestMatchers("/api/checkout/**").permitAll()
 //                .requestMatchers("/api/products/**").hasAnyRole("USER", "ADMIN")
+=======
+                .requestMatchers("/api/cart/**").hasAnyRole("USER", "ADMIN")
+                .requestMatchers("/api/admin/**").hasRole("ADMIN")
+                .requestMatchers("/api/checkout/**").hasAnyRole("USER", "ADMIN")
+>>>>>>> Stashed changes
 =======
                 .requestMatchers("/api/cart/**").hasAnyRole("USER", "ADMIN")
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")
