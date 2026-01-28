@@ -75,10 +75,10 @@ public class Product {
     private String productIsbn;
 
     @Column(name = "is_rentable")
-    private boolean rentable;
+    private Boolean rentable;
 
     @Column(name = "is_library")
-    private boolean library;
+    private Boolean library;
 
     @Column(name = "rent_per_day", precision = 5, scale = 2)
     private BigDecimal rentPerDay;
@@ -224,7 +224,7 @@ public class Product {
         this.productIsbn = productIsbn;
     }
 
-    public boolean isRentable() {
+    public Boolean isRentable() {
         return rentable;
     }
 
@@ -232,7 +232,7 @@ public class Product {
         this.rentable = rentable;
     }
 
-    public boolean isLibrary() {
+    public Boolean isLibrary() {
         return library;
     }
 
