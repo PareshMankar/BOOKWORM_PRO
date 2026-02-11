@@ -1,0 +1,670 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\shelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\shelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\dto\\shelfresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\dto\\shelfresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\shelfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\shelfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\myshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\myshelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\dto\\checkoutrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\dto\\checkoutrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\transactionpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\transactionpdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\librarycheckoutservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\librarycheckoutservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\transactionpdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\transactionpdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\librarypackageservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\librarypackageservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\mylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\mylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\productbeneficiariesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\productbeneficiariesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\dto\\productbeneficiarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\dto\\productbeneficiarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\interfaces\\iproductbeneficiaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\interfaces\\iproductbeneficiaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\productbeneficiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\productbeneficiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\producttypemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\producttypemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\royaltycalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\royaltycalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\interfaces\\ishelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\interfaces\\ishelfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DD67BF-4A77-4096-A66F-3546A3C3F8E4}|BookwormNetXUnit\\BookwormNetXUnit.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnetxunit\\tests\\productbeneficiarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13DD67BF-4A77-4096-A66F-3546A3C3F8E4}|BookwormNetXUnit\\BookwormNetXUnit.csproj|solutionrelative:bookwormnetxunit\\tests\\productbeneficiarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13DD67BF-4A77-4096-A66F-3546A3C3F8E4}|BookwormNetXUnit\\BookwormNetXUnit.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnetxunit\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13DD67BF-4A77-4096-A66F-3546A3C3F8E4}|BookwormNetXUnit\\BookwormNetXUnit.csproj|solutionrelative:bookwormnetxunit\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\languageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\languageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\orderhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\oauth2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\oauth2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|c:\\users\\lenovo\\desktop\\v2\\bookwormnet (9)\\bookwormnet\\bookwormnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C09D58-96B4-43AA-981F-6D13F2BA4A5E}|BookWormNET\\BookWormNET.csproj|solutionrelative:bookwormnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShelfController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\ShelfController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\ShelfController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\ShelfController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\ShelfController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T01:05:41.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyShelf.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\MyShelf.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\MyShelf.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\MyShelf.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\MyShelf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T01:05:20.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\CheckoutService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\CheckoutService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\CheckoutService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\CheckoutService.cs",
+              "ViewState": "AgIAABABAAAAAAAAAADwvxsBAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T00:51:04.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShelfService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\ShelfService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\ShelfService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\ShelfService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\ShelfService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv3IAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:41:10.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShelfResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\dto\\ShelfResponseDto.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\dto\\ShelfResponseDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\dto\\ShelfResponseDto.cs",
+              "RelativeToolTip": "BookWormNET\\dto\\ShelfResponseDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:43:42.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Program.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Program.cs",
+              "RelativeToolTip": "BookWormNET\\Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv40AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:24:45.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckoutRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\dto\\CheckoutRequestDto.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\dto\\CheckoutRequestDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\dto\\CheckoutRequestDto.cs",
+              "RelativeToolTip": "BookWormNET\\dto\\CheckoutRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T00:53:52.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T00:59:05.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionType.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\TransactionType.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\TransactionType.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\TransactionType.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\TransactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T01:00:50.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T20:35:09.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LibraryCheckoutService .cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\LibraryCheckoutService .cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\LibraryCheckoutService .cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\LibraryCheckoutService .cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\LibraryCheckoutService .cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAYwLQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:08:21.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransactionPdfController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\TransactionPdfController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\TransactionPdfController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\TransactionPdfController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\TransactionPdfController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T04:05:54.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\ProductService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\ProductService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\ProductService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\ProductService.cs",
+              "ViewState": "AgIAAGABAAAAAAAAAAAwwHEBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T11:35:32.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T11:24:50.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionPdfService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\TransactionPdfService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\TransactionPdfService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\TransactionPdfService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\TransactionPdfService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T04:25:25.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LibraryPackageService .cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\LibraryPackageService .cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\LibraryPackageService .cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\LibraryPackageService .cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\LibraryPackageService .cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:07:40.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\MyLibrary.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\MyLibrary.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\MyLibrary.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\MyLibrary.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAEBUwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T21:10:21.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductBeneficiariesService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\ProductBeneficiariesService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\ProductBeneficiariesService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\ProductBeneficiariesService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\ProductBeneficiariesService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:16:29.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductBeneficiarydto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\dto\\ProductBeneficiarydto.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\dto\\ProductBeneficiarydto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\dto\\ProductBeneficiarydto.cs",
+              "RelativeToolTip": "BookWormNET\\dto\\ProductBeneficiarydto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:57:55.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductBeneficiaryService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Interfaces\\IProductBeneficiaryService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Interfaces\\IProductBeneficiaryService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Interfaces\\IProductBeneficiaryService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Interfaces\\IProductBeneficiaryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:15:53.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductBeneficiary.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\ProductBeneficiary.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\ProductBeneficiary.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\ProductBeneficiary.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\ProductBeneficiary.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:08:06.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\AdminProductController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\AdminProductController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvy8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T21:02:56.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\Publisher.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\Publisher.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\Publisher.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T00:47:48.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductTypeMaster.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\ProductTypeMaster.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\ProductTypeMaster.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\ProductTypeMaster.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\ProductTypeMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T00:48:00.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\Language.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\Language.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\Language.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T00:47:20.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RoyaltyCalculation.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\RoyaltyCalculation.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\RoyaltyCalculation.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\RoyaltyCalculation.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\RoyaltyCalculation.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:45:38.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookwormNetXUnit\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "BookwormNetXUnit\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookwormNetXUnit\\UnitTest1.cs",
+              "RelativeToolTip": "BookwormNetXUnit\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:06:24.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductBeneficiaryTests.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookwormNetXUnit\\Tests\\ProductBeneficiaryTests.cs",
+              "RelativeDocumentMoniker": "BookwormNetXUnit\\Tests\\ProductBeneficiaryTests.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookwormNetXUnit\\Tests\\ProductBeneficiaryTests.cs",
+              "RelativeToolTip": "BookwormNetXUnit\\Tests\\ProductBeneficiaryTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:22:13.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IShelfService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Interfaces\\IShelfService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Interfaces\\IShelfService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Interfaces\\IShelfService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Interfaces\\IShelfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:43:31.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "BookWormNET\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:18:20.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\LanguageController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\LanguageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:00:03.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LanguageService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\LanguageService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\LanguageService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\LanguageService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\LanguageService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T11:20:57.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\OrderHistoryController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\OrderHistoryController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\OrderHistoryController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\OrderHistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:59:59.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:54:51.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:54:16.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\OrderHistoryService.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Services\\Implementation\\OrderHistoryService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Services\\Implementation\\OrderHistoryService.cs",
+              "RelativeToolTip": "BookWormNET\\Services\\Implementation\\OrderHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T11:00:31.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OAuth2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\OAuth2Controller.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\OAuth2Controller.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\OAuth2Controller.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\OAuth2Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:32:27.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TransactionItem.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\TransactionItem.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\TransactionItem.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\TransactionItem.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\TransactionItem.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T03:30:10.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BookWormNET\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:00:26.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BookWormNET\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\V2\\BookWormNET (9)\\BookWormNET\\BookWormNET\\Models\\User.cs",
+              "RelativeToolTip": "BookWormNET\\Models\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T04:40:11.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
