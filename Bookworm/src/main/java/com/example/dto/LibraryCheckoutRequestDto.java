@@ -2,14 +2,11 @@ package com.example.dto;
 
 import java.util.List;
 
-import com.example.models.TransactionType;
-
-public class CheckoutRequest {
+public class LibraryCheckoutRequestDto {
 
     private Integer userId;
+    private Integer packageId;
     private List<Integer> productIds;
-    private TransactionType transactionType;
-    private Integer rentDays;
 
     public Integer getUserId() {
         return userId;
@@ -19,6 +16,14 @@ public class CheckoutRequest {
         this.userId = userId;
     }
 
+    public Integer getPackageId() {
+        return packageId;
+    }
+
+    public void setPackageId(Integer packageId) {
+        this.packageId = packageId;
+    }
+
     public List<Integer> getProductIds() {
         return productIds;
     }
@@ -26,15 +31,4 @@ public class CheckoutRequest {
     public void setProductIds(List<Integer> productIds) {
         this.productIds = productIds;
     }
-    
-    
-    public Integer getRentDays() {
-        return rentDays;
-    }
-
-    public void setRentDays(Integer rentDays) {
-        this.rentDays = rentDays;
-    }
-
 }
-

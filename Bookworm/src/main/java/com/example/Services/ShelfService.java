@@ -46,6 +46,10 @@ public class ShelfService {
         Product product = productRepository.findById(productId)
                 .orElseThrow(() -> new RuntimeException("Product not found"));
 
+        
+        
+        
+        
         MyShelf shelf = new MyShelf();
         shelf.setUser(user);
         shelf.setProduct(product);

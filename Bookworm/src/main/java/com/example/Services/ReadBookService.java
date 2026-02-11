@@ -34,4 +34,17 @@ public class ReadBookService {
     public ReadBook getPdfByProductId(int productId) {
         return readBookRepository.findByProduct_ProductId(productId);
     }
+    
+    
+ // ✅ ADD THIS METHOD (THIS FIXES EVERYTHING)
+    public byte[] readBook(int productId) {
+
+        ReadBook readBook = readBookRepository.findByProduct_ProductId(productId);
+
+        if (readBook == null || readBook.getPdfData() == null) {
+            throw new RuntimeException("PDF not found for this book");
+        }
+
+        return readBook.getPdfData();
+    }
 }

@@ -78,4 +78,23 @@ public class ProductController {
         return "JWT WORKING - ACCESS GRANTED";
     }
     
+    @GetMapping("/library")
+    public ResponseEntity<List<Product>> libraryProducts() {
+        return ResponseEntity.ok(
+                productService.getLibraryProducts()
+        );
+    }
+    
+    
+    @GetMapping("/filter")
+    public ResponseEntity<List<Product>> filterProducts(
+            @RequestParam(required = false) String genere,
+            @RequestParam(required = false) String language
+    ) {
+        return ResponseEntity.ok(
+                productService.filterProducts(genere, language)
+        );
+    }
+
+    
 }

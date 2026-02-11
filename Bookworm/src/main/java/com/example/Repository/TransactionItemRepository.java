@@ -1,7 +1,10 @@
 package com.example.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
+import com.example.dto.OrderHistoryDTO;
 import com.example.models.Transaction;
 import com.example.models.TransactionItem;
 
@@ -12,5 +15,38 @@ public interface TransactionItemRepository
 
     List<TransactionItem> findByTransactionTransactionId(Long transactionId);
     List<TransactionItem> findByTransaction(Transaction transaction);
+    
+    
+    @Query("""
+            SELECT new com.example.dto.OrderHistoryDTO(
+                t.transactionId,
+                p.productName,
+                (ti.price * ti.quantity),
+                t.createdAt
+            )
+            FROM TransactionItem ti
+            JOIN ti.transaction t
+            JOIN t.user u
+            JOIN ti.product p
+            WHERE u.userId = :userId
+            ORDER BY t.createdAt DESC
+        """)
+    
+    List<OrderHistoryDTO> findOrderHistoryByUserId(@Param("userId") int userId);
+    
+    @Query("""
+    	    SELECT new com.example.dto.OrderHistoryDTO(
+    	        t.transactionId,
+    	        p.productName,
+    	        (ti.price * ti.quantity),
+    	        t.createdAt
+    	    )
+    	    FROM TransactionItem ti
+    	    JOIN ti.transaction t
+    	    JOIN ti.product p
+    	    ORDER BY t.createdAt DESC
+    	""")
+    
+    List<OrderHistoryDTO>findAllOrderHistory();
 }
 

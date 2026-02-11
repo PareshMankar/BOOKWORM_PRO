@@ -2,6 +2,8 @@ package com.example.Services;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -60,10 +62,73 @@ public class CheckoutService {
 		this.transactionPdfService = transactionPdfService;
 		this.emailService = emailService;
 	}
+	
+	// ================= PRICE CALCULATION =================
+
+    private BigDecimal calculateItemTotal(
+            Product product,
+            TransactionType transactionType,
+            int quantity,
+            Integer rentDays
+    ) {
+
+        // ---------- RENT ----------
+        if (transactionType == TransactionType.RENT) {
+
+            if (!product.isRentable()) {
+                throw new RuntimeException("Product is not rentable");
+            }
+
+            if (rentDays == null || rentDays < product.getMinRentDays()) {
+                throw new RuntimeException(
+                        "Minimum rent days is " + product.getMinRentDays());
+            }
+
+            if (product.getRentPerDay() == null) {
+                throw new RuntimeException("Rent price per day not available");
+            }
+
+            return product.getRentPerDay()
+                    .multiply(BigDecimal.valueOf(rentDays))
+                    .multiply(BigDecimal.valueOf(quantity));
+        }
+
+        // ---------- BUY ----------
+        BigDecimal unitPrice;
+
+        // Offer price
+        if (product.getProductOfferprice() != null &&
+            product.getProductOffPriceExpirydate() != null &&
+            product.getProductOffPriceExpirydate().isAfter(LocalDate.now())) {
+
+            unitPrice = product.getProductOfferprice();
+        }
+        // Discount percent
+        else if (product.getDiscountPercent() != null &&
+                 product.getDiscountPercent().compareTo(BigDecimal.ZERO) > 0) {
+
+            BigDecimal discount =
+                    product.getProductBaseprice()
+                           .multiply(product.getDiscountPercent())
+                           .divide(BigDecimal.valueOf(100), 2, RoundingMode.HALF_UP);
+
+            unitPrice = product.getProductBaseprice().subtract(discount);
+        }
+        // Base price
+        else {
+            unitPrice = product.getProductBaseprice();
+        }
+
+        return unitPrice.multiply(BigDecimal.valueOf(quantity));
+    }
+
+
+	
 
 	@Transactional
     public void checkout(CheckoutRequest request) {
-
+		System.out.println("rentDays from request = " + request.getRentDays());
+		
         // 1️⃣ Fetch user
         User user = userRepo.findById(request.getUserId())
                 .orElseThrow(() -> new RuntimeException("User not found"));
@@ -75,11 +140,17 @@ public class CheckoutService {
         if (cartItems.isEmpty()) {
             throw new RuntimeException("Cart is empty");
         }
+        
+     // 3️⃣ Decide transaction type
+        TransactionType transactionType =
+                request.getRentDays() != null
+                        ? TransactionType.RENT
+                        : TransactionType.BUY;
 
         // 3️⃣ Create transaction (PENDING)
         Transaction transaction = new Transaction();
         transaction.setUser(user);
-        transaction.setTransactionType(TransactionType.BUY);
+        transaction.setTransactionType(transactionType);
         transaction.setStatus(TransactionStatus.PENDING);
         transaction = transactionRepo.save(transaction);
 
@@ -90,18 +161,45 @@ public class CheckoutService {
         for (Cart cart : cartItems) {
 
             Product product = cart.getProduct(); // MUST NOT be null
+            int qty = cart.getQty();
+            
+            BigDecimal itemTotal = calculateItemTotal(
+                    product,
+                    transactionType,
+                    qty,
+                    request.getRentDays()
+            );
+
+            // Store UNIT PRICE in transaction item
+            BigDecimal unitPrice;
+            if (transactionType == TransactionType.RENT) {
+                unitPrice = product.getRentPerDay();
+            } else {
+                unitPrice = itemTotal.divide(
+                        BigDecimal.valueOf(qty),
+                        2,
+                        RoundingMode.HALF_UP
+                );
+            }
+
+            
+            
+//            BigDecimal sellingPrice =
+//                    product.getProductOfferprice() != null
+//                    ? product.getProductOfferprice()
+//                    : product.getProductBaseprice();
 
             TransactionItem item = new TransactionItem();
             item.setTransaction(transaction);
             item.setProduct(product);
-            item.setPrice(product.getProductBaseprice());
+            item.setPrice(unitPrice);
             item.setQuantity(cart.getQty());
 
             itemRepo.save(item);
 
-            BigDecimal price = product.getProductBaseprice();
-            BigDecimal itemTotal =
-                    price.multiply(BigDecimal.valueOf(cart.getQty()));
+//            BigDecimal price = sellingPrice;
+//            BigDecimal itemTotal =
+//                    price.multiply(BigDecimal.valueOf(cart.getQty()));
 
             total = total.add(itemTotal);
 
@@ -128,7 +226,7 @@ public class CheckoutService {
             		rc.setProduct(product);
             		rc.setInvoiceDetail(item);
             		rc.setRoyaltyPercent(product.getRoyaltyPercent());
-            		rc.setTotalAmount(product.getProductBaseprice());
+            		rc.setTotalAmount(itemTotal);
             		rc.setTotalRoyalty(totalRoyalty);
             	
             		rc = royaltyCalculationRespository.save(rc);
@@ -158,13 +256,42 @@ public class CheckoutService {
 
             }
             
+            
 
-            // 5️⃣ Add to shelf
-            MyShelf shelf = new MyShelf();
-            shelf.setUser(user);
-            shelf.setProduct(product);
-         
-            shelfRepo.save(shelf);
+            
+            boolean exists = shelfRepo
+            	    .existsByUser_UserIdAndProduct_ProductId(
+            	        user.getUserId(),
+            	        product.getProductId()
+            	    );
+
+            	if (!exists) {
+
+            	    MyShelf shelf = new MyShelf();
+            	    shelf.setUser(user);
+            	    shelf.setProduct(product);
+
+            	    // rent expiry logic
+            	    if (Boolean.TRUE.equals(product.isRentable())) {
+            	        shelf.setProductExpiryDate(
+            	            LocalDateTime.now().plusDays(product.getMinRentDays())
+            	        );
+            	    }
+
+            	    shelfRepo.save(shelf);
+
+            	} else {
+            	    System.out.println("Book already present in shelf → skip");
+            	}
+            
+            
+            
+//            // 5️⃣ Add to shelf
+//            MyShelf shelf = new MyShelf();
+//            shelf.setUser(user);
+//            shelf.setProduct(product);
+//            
+//            shelfRepo.save(shelf);
         }
 
         // 6️⃣ Update transaction

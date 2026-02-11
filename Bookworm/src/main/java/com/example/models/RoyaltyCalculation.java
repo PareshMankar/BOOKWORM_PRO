@@ -16,7 +16,7 @@ public class RoyaltyCalculation {
     // -------- Relationship with InvoiceDetail --------
 
     @ManyToOne
-    @JoinColumn(name = "itemId", nullable = false)
+    @JoinColumn(name = "itemId", nullable = false, foreignKey = @ForeignKey(ConstraintMode.NO_CONSTRAINT))
     private TransactionItem TransactionItem;
 
     // -------- Transaction Date --------

@@ -11,4 +11,7 @@ public interface ProductService {
 	    void deleteProduct(Integer id);                 // deleteById()
 	    
 	    List<Product> searchProductsByName(String name, Integer limit);
+	    
+	    List<Product> getLibraryProducts();
+	    List<Product> filterProducts(String genere, String language);
 	}

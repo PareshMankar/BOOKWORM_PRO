@@ -12,4 +12,15 @@ import com.example.models.Product;
 public interface ProductRepository extends JpaRepository<Product,Integer>{
 
 	  List<Product> findByProductNameContainingIgnoreCase(String productName,Pageable pageable);
+	  
+	  List<Product> findByLibraryTrue();
+	  List<Product> findByGenere_GenereDescAndLibraryTrue(String genereDesc);
+
+	  List<Product> findByLanguage_LanguageDescAndLibraryTrue(String languageDesc);
+
+	  List<Product> findByGenere_GenereDescAndLanguage_LanguageDescAndLibraryTrue(
+	          String genereDesc,
+	          String languageDesc
+	  );
+
 }

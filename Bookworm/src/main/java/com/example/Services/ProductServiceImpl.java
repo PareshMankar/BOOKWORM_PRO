@@ -133,5 +133,45 @@ public class ProductServiceImpl implements ProductService {
 	    return productRepository.findByProductNameContainingIgnoreCase(query,PageRequest.of(0, safeLimit)
 	    );
 	}
+	
+	
+	
+	@Override
+	public List<Product> getLibraryProducts() {
+	    return productRepository.findByLibraryTrue();
+	}
+	
+	
+	@Override
+	public List<Product> filterProducts(String genere, String language) {
+
+	    boolean hasGenere = genere != null && !genere.isBlank();
+	    boolean hasLanguage = language != null && !language.isBlank();
+
+	    // ✅ BOTH dropdowns selected
+	    if (hasGenere && hasLanguage) {
+	        return productRepository
+	                .findByGenere_GenereDescAndLanguage_LanguageDescAndLibraryTrue(
+	                        genere,
+	                        language
+	                );
+	    }
+
+	    // ✅ ONLY genre selected
+	    if (hasGenere) {
+	        return productRepository
+	                .findByGenere_GenereDescAndLibraryTrue(genere);
+	    }
+
+	    // ✅ ONLY language selected
+	    if (hasLanguage) {
+	        return productRepository
+	                .findByLanguage_LanguageDescAndLibraryTrue(language);
+	    }
+
+	    // ✅ NONE selected → show all library books
+	    return productRepository.findByLibraryTrue();
+	}
+
     
 }

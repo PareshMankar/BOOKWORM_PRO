@@ -46,7 +46,9 @@ public class OAuth2SuccessHandler implements AuthenticationSuccessHandler {
         String token = jwtUtil.generateToken(user.getUserEmail(), user.isAdmin());
 
         response.sendRedirect(
-                "http://localhost:3000/login-success?token=" + token
-        );
+        	    "http://localhost:5173/login-success"
+        	    + "?token=" + token
+        	    + "&userId=" + user.getUserId()
+        	);
     }
 }
